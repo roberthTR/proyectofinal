@@ -40,7 +40,7 @@
         android:layout_marginTop="112dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:text=".."
+        android:text="."
         android:textSize="25dp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
