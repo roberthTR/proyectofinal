@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "273033335062",
+    "project_id": "foro-2810e",
+    "storage_bucket": "foro-2810e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273033335062:android:f9e501fb494fb0122c8037",
+        "android_client_info": {
+          "package_name": "com.example.for012"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273033335062-nq4nglm4fd9luis7alh5kbvtge3it0ib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADZ30oosIW5yfK8PJnWEGCnY44t5PuSjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273033335062-nq4nglm4fd9luis7alh5kbvtge3it0ib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
