@@ -11,9 +11,26 @@ public class CreateForoActivity extends AppCompatActivity {
 
     private FirebaseFirestore mfirestore;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_foro);
+
+        this.setTitle("Crear Foro");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        mfirestore = FirebaseFirestore.getInstance();
+
+
     }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return false;
+    }
+
+
+
 }
